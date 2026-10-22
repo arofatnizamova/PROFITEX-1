@@ -101,6 +101,14 @@ a {
     background: #EAF5FF;
 }
 
+.bg-acsent {
+    background: #BDA26D;
+}
+
+.bg-green {
+    background: #D1EED8;
+}
+
 .bg-linear-corp {
     background: linear-gradient(90deg, #a80306 0%, #bc0209 26.92%, #d41b18 49.52%, #c1070c 75%, #a30003 100%);
 }
@@ -288,6 +296,18 @@ header {
     transform: scale(1.1);
 }
 
+.border-gold {
+    border-color: #F9D796 !important;
+}
+
+.about-card img {
+    height: 80px;
+}
+
+.about-card {
+    min-height: 250px;
+}
+
 @media(max-width: 990px) {
     .w-lg-fit-content {
         width: 100%;
@@ -303,5 +323,18 @@ header {
 
     .icon-size-sm {
         height: 40px;
+    }
+
+    .banner-section img {
+        height: 500px;
+    }
+
+    .overlay {
+        height: 100%;
+        width: 100%;
+        background: rgba(255, 255, 255, 0.61);
+        position: absolute;
+        top: 0;
+        left: 0;
     }
 }
